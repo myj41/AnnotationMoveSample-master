@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67ECBD37159A6AB0004EAB05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67ECBD36159A6AB0004EAB05 /* UIKit.framework */; };
+		67ECBD39159A6AB0004EAB05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67ECBD38159A6AB0004EAB05 /* Foundation.framework */; };
+		67ECBD3B159A6AB0004EAB05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67ECBD3A159A6AB0004EAB05 /* CoreGraphics.framework */; };
+		67ECBD41159A6AB0004EAB05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67ECBD3F159A6AB0004EAB05 /* InfoPlist.strings */; };
+		67ECBD43159A6AB0004EAB05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67ECBD42159A6AB0004EAB05 /* main.m */; };
+		67ECBD47159A6AB0004EAB05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67ECBD46159A6AB0004EAB05 /* AppDelegate.m */; };
+		67ECBD4A159A6AB0004EAB05 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67ECBD48159A6AB0004EAB05 /* MainStoryboard_iPhone.storyboard */; };
+		67ECBD50159A6AB0004EAB05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67ECBD4F159A6AB0004EAB05 /* ViewController.m */; };
+		67ECBD58159A6AB0004EAB05 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67ECBD57159A6AB0004EAB05 /* SenTestingKit.framework */; };
+		67ECBD59159A6AB0004EAB05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67ECBD36159A6AB0004EAB05 /* UIKit.framework */; };
+		67ECBD5A159A6AB0004EAB05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67ECBD38159A6AB0004EAB05 /* Foundation.framework */; };
+		67ECBD62159A6AB0004EAB05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67ECBD60159A6AB0004EAB05 /* InfoPlist.strings */; };
+		67ECBD65159A6AB0004EAB05 /* AnnotationMoveSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67ECBD64159A6AB0004EAB05 /* AnnotationMoveSampleTests.m */; };
+		67ECBD71159A6B5E004EAB05 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67ECBD70159A6B5E004EAB05 /* MapKit.framework */; };
+		67ECBD78159A6CB2004EAB05 /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 67ECBD77159A6CB2004EAB05 /* CustomAnnotation.m */; };
+		67ECBD7B159A6CC9004EAB05 /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67ECBD7A159A6CC9004EAB05 /* CustomAnnotationView.m */; };
+		67ECBD7E159A6D45004EAB05 /* asymbol-moving-annotation.png in Resources */ = {isa = PBXBuildFile; fileRef = 67ECBD7D159A6D45004EAB05 /* asymbol-moving-annotation.png */; };
+		67ECBD80159A6ECA004EAB05 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67ECBD7F159A6ECA004EAB05 /* CoreLocation.framework */; };
+		9A79BEF517976C2200D0BF44 /* symbol-moving-annotation.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A79BEF417976C2200D0BF44 /* symbol-moving-annotation.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67ECBD5B159A6AB0004EAB05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67ECBD29159A6AB0004EAB05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67ECBD31159A6AB0004EAB05;
+			remoteInfo = AnnotationMoveSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67ECBD32159A6AB0004EAB05 /* AnnotationMoveSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnnotationMoveSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67ECBD36159A6AB0004EAB05 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		67ECBD38159A6AB0004EAB05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		67ECBD3A159A6AB0004EAB05 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		67ECBD3E159A6AB0004EAB05 /* AnnotationMoveSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnnotationMoveSample-Info.plist"; sourceTree = "<group>"; };
+		67ECBD40159A6AB0004EAB05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67ECBD42159A6AB0004EAB05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67ECBD44159A6AB0004EAB05 /* AnnotationMoveSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnnotationMoveSample-Prefix.pch"; sourceTree = "<group>"; };
+		67ECBD45159A6AB0004EAB05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		67ECBD46159A6AB0004EAB05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		67ECBD49159A6AB0004EAB05 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		67ECBD4E159A6AB0004EAB05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		67ECBD4F159A6AB0004EAB05 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		67ECBD56159A6AB0004EAB05 /* AnnotationMoveSampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnnotationMoveSampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67ECBD57159A6AB0004EAB05 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		67ECBD5F159A6AB0004EAB05 /* AnnotationMoveSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnnotationMoveSampleTests-Info.plist"; sourceTree = "<group>"; };
+		67ECBD61159A6AB0004EAB05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67ECBD63159A6AB0004EAB05 /* AnnotationMoveSampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnnotationMoveSampleTests.h; sourceTree = "<group>"; };
+		67ECBD64159A6AB0004EAB05 /* AnnotationMoveSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnnotationMoveSampleTests.m; sourceTree = "<group>"; };
+		67ECBD70159A6B5E004EAB05 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		67ECBD76159A6CB2004EAB05 /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotation.h; sourceTree = "<group>"; };
+		67ECBD77159A6CB2004EAB05 /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotation.m; sourceTree = "<group>"; };
+		67ECBD79159A6CC9004EAB05 /* CustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotationView.h; sourceTree = "<group>"; };
+		67ECBD7A159A6CC9004EAB05 /* CustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotationView.m; sourceTree = "<group>"; };
+		67ECBD7D159A6D45004EAB05 /* asymbol-moving-annotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asymbol-moving-annotation.png"; sourceTree = "<group>"; };
+		67ECBD7F159A6ECA004EAB05 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9A79BEF417976C2200D0BF44 /* symbol-moving-annotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "symbol-moving-annotation.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67ECBD2F159A6AB0004EAB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67ECBD80159A6ECA004EAB05 /* CoreLocation.framework in Frameworks */,
+				67ECBD71159A6B5E004EAB05 /* MapKit.framework in Frameworks */,
+				67ECBD37159A6AB0004EAB05 /* UIKit.framework in Frameworks */,
+				67ECBD39159A6AB0004EAB05 /* Foundation.framework in Frameworks */,
+				67ECBD3B159A6AB0004EAB05 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67ECBD52159A6AB0004EAB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67ECBD58159A6AB0004EAB05 /* SenTestingKit.framework in Frameworks */,
+				67ECBD59159A6AB0004EAB05 /* UIKit.framework in Frameworks */,
+				67ECBD5A159A6AB0004EAB05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67ECBD27159A6AB0004EAB05 = {
+			isa = PBXGroup;
+			children = (
+				67ECBD7C159A6D45004EAB05 /* Resource */,
+				67ECBD3C159A6AB0004EAB05 /* AnnotationMoveSample */,
+				67ECBD5D159A6AB0004EAB05 /* AnnotationMoveSampleTests */,
+				67ECBD35159A6AB0004EAB05 /* Frameworks */,
+				67ECBD33159A6AB0004EAB05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67ECBD33159A6AB0004EAB05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67ECBD32159A6AB0004EAB05 /* AnnotationMoveSample.app */,
+				67ECBD56159A6AB0004EAB05 /* AnnotationMoveSampleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67ECBD35159A6AB0004EAB05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67ECBD7F159A6ECA004EAB05 /* CoreLocation.framework */,
+				67ECBD70159A6B5E004EAB05 /* MapKit.framework */,
+				67ECBD36159A6AB0004EAB05 /* UIKit.framework */,
+				67ECBD38159A6AB0004EAB05 /* Foundation.framework */,
+				67ECBD3A159A6AB0004EAB05 /* CoreGraphics.framework */,
+				67ECBD57159A6AB0004EAB05 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67ECBD3C159A6AB0004EAB05 /* AnnotationMoveSample */ = {
+			isa = PBXGroup;
+			children = (
+				67ECBD45159A6AB0004EAB05 /* AppDelegate.h */,
+				67ECBD46159A6AB0004EAB05 /* AppDelegate.m */,
+				67ECBD4E159A6AB0004EAB05 /* ViewController.h */,
+				67ECBD4F159A6AB0004EAB05 /* ViewController.m */,
+				67ECBD76159A6CB2004EAB05 /* CustomAnnotation.h */,
+				67ECBD77159A6CB2004EAB05 /* CustomAnnotation.m */,
+				67ECBD79159A6CC9004EAB05 /* CustomAnnotationView.h */,
+				67ECBD7A159A6CC9004EAB05 /* CustomAnnotationView.m */,
+				67ECBD48159A6AB0004EAB05 /* MainStoryboard_iPhone.storyboard */,
+				67ECBD3D159A6AB0004EAB05 /* Supporting Files */,
+			);
+			path = AnnotationMoveSample;
+			sourceTree = "<group>";
+		};
+		67ECBD3D159A6AB0004EAB05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67ECBD3E159A6AB0004EAB05 /* AnnotationMoveSample-Info.plist */,
+				67ECBD3F159A6AB0004EAB05 /* InfoPlist.strings */,
+				67ECBD42159A6AB0004EAB05 /* main.m */,
+				67ECBD44159A6AB0004EAB05 /* AnnotationMoveSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67ECBD5D159A6AB0004EAB05 /* AnnotationMoveSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				67ECBD63159A6AB0004EAB05 /* AnnotationMoveSampleTests.h */,
+				67ECBD64159A6AB0004EAB05 /* AnnotationMoveSampleTests.m */,
+				67ECBD5E159A6AB0004EAB05 /* Supporting Files */,
+			);
+			path = AnnotationMoveSampleTests;
+			sourceTree = "<group>";
+		};
+		67ECBD5E159A6AB0004EAB05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67ECBD5F159A6AB0004EAB05 /* AnnotationMoveSampleTests-Info.plist */,
+				67ECBD60159A6AB0004EAB05 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67ECBD7C159A6D45004EAB05 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9A79BEF417976C2200D0BF44 /* symbol-moving-annotation.png */,
+				67ECBD7D159A6D45004EAB05 /* asymbol-moving-annotation.png */,
+			);
+			name = Resource;
+			path = AnnotationMoveSample/Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67ECBD31159A6AB0004EAB05 /* AnnotationMoveSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67ECBD68159A6AB0004EAB05 /* Build configuration list for PBXNativeTarget "AnnotationMoveSample" */;
+			buildPhases = (
+				67ECBD2E159A6AB0004EAB05 /* Sources */,
+				67ECBD2F159A6AB0004EAB05 /* Frameworks */,
+				67ECBD30159A6AB0004EAB05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnnotationMoveSample;
+			productName = AnnotationMoveSample;
+			productReference = 67ECBD32159A6AB0004EAB05 /* AnnotationMoveSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67ECBD55159A6AB0004EAB05 /* AnnotationMoveSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67ECBD6B159A6AB0004EAB05 /* Build configuration list for PBXNativeTarget "AnnotationMoveSampleTests" */;
+			buildPhases = (
+				67ECBD51159A6AB0004EAB05 /* Sources */,
+				67ECBD52159A6AB0004EAB05 /* Frameworks */,
+				67ECBD53159A6AB0004EAB05 /* Resources */,
+				67ECBD54159A6AB0004EAB05 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67ECBD5C159A6AB0004EAB05 /* PBXTargetDependency */,
+			);
+			name = AnnotationMoveSampleTests;
+			productName = AnnotationMoveSampleTests;
+			productReference = 67ECBD56159A6AB0004EAB05 /* AnnotationMoveSampleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67ECBD29159A6AB0004EAB05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "The University of Tokyo";
+			};
+			buildConfigurationList = 67ECBD2C159A6AB0004EAB05 /* Build configuration list for PBXProject "AnnotationMoveSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 67ECBD27159A6AB0004EAB05;
+			productRefGroup = 67ECBD33159A6AB0004EAB05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67ECBD31159A6AB0004EAB05 /* AnnotationMoveSample */,
+				67ECBD55159A6AB0004EAB05 /* AnnotationMoveSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67ECBD30159A6AB0004EAB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67ECBD41159A6AB0004EAB05 /* InfoPlist.strings in Resources */,
+				67ECBD4A159A6AB0004EAB05 /* MainStoryboard_iPhone.storyboard in Resources */,
+				67ECBD7E159A6D45004EAB05 /* asymbol-moving-annotation.png in Resources */,
+				9A79BEF517976C2200D0BF44 /* symbol-moving-annotation.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67ECBD53159A6AB0004EAB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67ECBD62159A6AB0004EAB05 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67ECBD54159A6AB0004EAB05 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67ECBD2E159A6AB0004EAB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67ECBD43159A6AB0004EAB05 /* main.m in Sources */,
+				67ECBD47159A6AB0004EAB05 /* AppDelegate.m in Sources */,
+				67ECBD50159A6AB0004EAB05 /* ViewController.m in Sources */,
+				67ECBD78159A6CB2004EAB05 /* CustomAnnotation.m in Sources */,
+				67ECBD7B159A6CC9004EAB05 /* CustomAnnotationView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67ECBD51159A6AB0004EAB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67ECBD65159A6AB0004EAB05 /* AnnotationMoveSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67ECBD5C159A6AB0004EAB05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67ECBD31159A6AB0004EAB05 /* AnnotationMoveSample */;
+			targetProxy = 67ECBD5B159A6AB0004EAB05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67ECBD3F159A6AB0004EAB05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67ECBD40159A6AB0004EAB05 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		67ECBD48159A6AB0004EAB05 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67ECBD49159A6AB0004EAB05 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		67ECBD60159A6AB0004EAB05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67ECBD61159A6AB0004EAB05 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67ECBD66159A6AB0004EAB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67ECBD67159A6AB0004EAB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67ECBD69159A6AB0004EAB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnnotationMoveSample/AnnotationMoveSample-Prefix.pch";
+				INFOPLIST_FILE = "AnnotationMoveSample/AnnotationMoveSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		67ECBD6A159A6AB0004EAB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnnotationMoveSample/AnnotationMoveSample-Prefix.pch";
+				INFOPLIST_FILE = "AnnotationMoveSample/AnnotationMoveSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		67ECBD6C159A6AB0004EAB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AnnotationMoveSample.app/AnnotationMoveSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnnotationMoveSample/AnnotationMoveSample-Prefix.pch";
+				INFOPLIST_FILE = "AnnotationMoveSampleTests/AnnotationMoveSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		67ECBD6D159A6AB0004EAB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AnnotationMoveSample.app/AnnotationMoveSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnnotationMoveSample/AnnotationMoveSample-Prefix.pch";
+				INFOPLIST_FILE = "AnnotationMoveSampleTests/AnnotationMoveSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67ECBD2C159A6AB0004EAB05 /* Build configuration list for PBXProject "AnnotationMoveSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67ECBD66159A6AB0004EAB05 /* Debug */,
+				67ECBD67159A6AB0004EAB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67ECBD68159A6AB0004EAB05 /* Build configuration list for PBXNativeTarget "AnnotationMoveSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67ECBD69159A6AB0004EAB05 /* Debug */,
+				67ECBD6A159A6AB0004EAB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67ECBD6B159A6AB0004EAB05 /* Build configuration list for PBXNativeTarget "AnnotationMoveSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67ECBD6C159A6AB0004EAB05 /* Debug */,
+				67ECBD6D159A6AB0004EAB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67ECBD29159A6AB0004EAB05 /* Project object */;
+}
